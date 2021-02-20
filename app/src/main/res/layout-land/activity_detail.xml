@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".DetailActivity"
+    android:background ="@drawable/image2">
+
+    <com.google.android.youtube.player.YouTubePlayerView
+        android:id="@+id/player"
+        android:layout_width="match_parent"
+        android:layout_height="250dp" />
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FDFCFC"
+        android:textSize="19sp"
+        tools:text="It Chapter Two" />
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        style="@style/Widget.AppCompat.RatingBar.Indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:isIndicator="true"
+        android:numStars="10"
+        android:rating="8.5" />
+
+    <TextView
+        android:id="@+id/tvOverview"
+        android:layout_width="match_parent"
+        android:layout_height="106dp"
+        android:textColor="#FFFCFC"
+        android:textSize="10sp"
+        tools:text="Wonder Woman comes into conflict with the Soviet Union during the Cold War in the 1980s and finds a formidable foe by the name of the Cheetah." />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/tvQuestion1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Release Date:"
+        android:textColor="#F8F5F5" />
+
+    <TextView
+        android:id="@+id/tvReleaseDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#F8F8F8"
+        tools:text="2019-09-06" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tvQuestion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Original Language:"
+        android:textColor="#FDFCFC" />
+
+    <TextView
+        android:id="@+id/tvLanguage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:textColor="#FAF9F9"
+        android:textColorHighlight="#120D0D"
+        android:textColorLink="#614949"
+        tools:text="en" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/Question3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Adult:"
+        android:textColor="#FBFBFB" />
+
+    <TextView
+        android:id="@+id/tvAdult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#F4F4F4"
+        tools:text="false" />
+
+
+</LinearLayout>
