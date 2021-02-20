@@ -27,7 +27,7 @@ Flix is an app that allows users to browse movies from the [The Movie Database A
 
 ### Notes
 
-One difficulty I had was resizing the views in landscape mode because it was difficult to fit all of my information in landscape mode. I just had to make all my view ids smaller.
+One difficulty I had was showing all the ids in landscape mode because if I minimized my youtube video there would be a formatting error so I decided to only show the summary of the movie and the youtube trailer.
 
 ## Open-source libraries used
 - [Android Async HTTP](https://github.com/codepath/CPAsyncHttpClient) - Simple asynchronous HTTP requests with JSON parsing
