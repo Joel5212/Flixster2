@@ -55,7 +55,7 @@ One difficulty I had was showing all the ids in landscape mode because if I mini
 ### App Walkthough GIF
 
 
-<img src="https://github.com/Joel5212/Flixster/blob/master/flixsterWalkthrough.gif" width=250><br>
+<img src="https://github.com/Joel5212/Flixster2/blob/master/flixsterWalkthrough2.gif" width=250><br>
 
 ### Notes
 Describe any challenges encountered while building the app.
