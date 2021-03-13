@@ -55,7 +55,7 @@ One difficulty I had was showing all the ids in landscape mode because if I mini
 ### App Walkthough GIF
 
 
-<img src="https://github.com/Joel5212/Flixster2/blob/master/flixsterWalkthrough2.gif" width=250><br>
+<img src="https://github.com/Joel5212/Flixster2/blob/master/flixsterWalkthrough2.gif" title='Video Walkthrough' width='' alt='Video Walkthrough' ><br>
 
 ### Notes
 I had an error with my app crashing but I later found out that I had a recycler view on the item activity xml when I already had one on the main activity xml.
